@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+    float diameter,Radius,Circumference,Area;
+    cin>>diameter;
+    Radius = diameter / 2;
+ Circumference = 2 * 3.14 * (diameter / 2);
+ Area = 3.14 * (diameter / 2) * (diameter / 2);
+cout<< "Diameter of the circle is : " << " "<< diameter<<endl ;
+cout<<"Radius of the circle is : "  << " "<<Radius<<endl;
+cout<<"Circumference of the circle is :"<< " "<<Circumference<<endl;
+cout<<"Area of the circle is:"<< " "<<Area<<endl;
+    
+    return 0;
+}

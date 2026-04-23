@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int main() {
+   int assignment , total_marks=0, obtain_marks=0 , sum=0, sum1=0;
+   float percentage=0 , per=0;
+   cout<<"enter total assignments : ";
+   cin>>assignment;
+   
+   for (int i=1; i<=assignment; i++){
+       cout<<"Enter Total marks of assignment "<<i<<" :";
+       cin>>total_marks;
+       cout<<"Obtained marks of "<<i<<" :";
+       cin>>obtain_marks;
+        percentage=1.0*100*obtain_marks/total_marks;
+  cout<<"The percentage for assignment "<<i<<" : " <<percentage<<"%"<<endl;
+  sum=sum+total_marks;
+ 
+  sum1=sum1+obtain_marks;
+  per=1.0*100*sum1/sum;
+  
+   }
+    cout<<"Total Marks in all assignments are : "<<sum<<endl;
+    cout<<"Total obtained marks in all assignments are : "<<sum1<<endl;
+   cout<<"percentage as a whole in assignments is : "<<per<<"%"<<endl;
+    
+
+    return 0;
+}
